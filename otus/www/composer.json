@@ -5,7 +5,8 @@
         "psr-4": {
             "Services\\": "services",
             "Classes\\": "classes",
-            "App\\": "app"
+            "App\\": "app",
+            "Test\\": "test"
         }
     }
 }

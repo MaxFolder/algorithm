@@ -1,0 +1,7 @@
+/.idea
+.env
+nginx
+/otus/Dockerfile
+/otus/php.ini
+/otus/xdebug.ini
+docker-compose.yml

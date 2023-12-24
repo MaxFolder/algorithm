@@ -3,10 +3,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Services\\": "services",
-            "Classes\\": "classes",
-            "App\\": "app",
-            "Test\\": "test"
+            "Classes\\": "Classes",
+            "Tests\\": "Tests"
         }
     }
 }

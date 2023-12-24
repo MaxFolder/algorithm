@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Test;
+namespace Tests;
 
 use Classes\Task\TaskInterface;
 
 class Tester
 {
-    private const BASE_PATH = '/var/www/html/test/data/';
+    private const BASE_PATH = '/var/www/html/Tests/data/';
 
     public function __construct(private string $folderName, private TaskInterface $task)
     {
@@ -33,7 +33,7 @@ class Tester
 
             $result = $this->runTest($inFile, $outFile);
 
-            echo false === $result ? 'test ' . $i . ' failed</br>' : 'test ' . $i . ' passed</br>';
+            echo false === $result ? "test " . $i . " failed \r\n" : "test " . $i . " passed\r\n";
         }
 
     }

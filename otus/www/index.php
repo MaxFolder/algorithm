@@ -2,4 +2,8 @@
 
 require_once 'vendor/autoload.php';
 
-echo 'hello word';
+$task = new \Classes\Task\LuckyTicket();
+
+$tester = new Tests\Tester('LuckyTicket', $task);
+
+$tester->RunTests();
